@@ -1,0 +1,21 @@
+name: sanaa-services-v3
+
+services:
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: main
+    image: sanaa-services-v3-main:local
+    ports:
+      - "${SANAA_MAIN_PORT:-3000}:80"
+    restart: unless-stopped
+  premium-travel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: premium-travel
+    image: sanaa-services-v3-premium-travel:local
+    ports:
+      - "${SANAA_PREMIUM_TRAVEL_PORT:-3001}:80"
+    restart: unless-stopped

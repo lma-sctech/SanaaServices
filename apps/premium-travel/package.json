@@ -1,0 +1,26 @@
+{
+  "name": "@sanaa/premium-travel",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "eslint . --max-warnings 0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@sanaa/eslint-config": "workspace:*",
+    "@sanaa/typescript-config": "workspace:*",
+    "@types/node": "22.19.21",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "eslint": "10.5.0",
+    "typescript": "6.0.3"
+  }
+}

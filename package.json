@@ -1,0 +1,20 @@
+{
+  "name": "sanaaservices-v3",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.8.0",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "node scripts/run-turbo.mjs dev",
+    "build": "node scripts/run-turbo.mjs build",
+    "lint": "node scripts/run-turbo.mjs lint",
+    "typecheck": "node scripts/run-turbo.mjs typecheck",
+    "format": "node scripts/run-turbo.mjs format",
+    "clean": "node scripts/run-turbo.mjs clean"
+  },
+  "devDependencies": {
+    "turbo": "2.9.18"
+  }
+}
