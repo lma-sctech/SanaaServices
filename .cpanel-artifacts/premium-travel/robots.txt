@@ -1,4 +1,4 @@
 User-Agent: *
-Disallow: /
+Allow: /
 
-Sitemap: https://www.mbk.ma/premium-travel/sitemap.xml
+Sitemap: https://travel.sanaaservices.com/sitemap.xml
